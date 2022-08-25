@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Paralleltest" parallel="tests">
+<test name="Multiplebrower1">
+<classes>
+<class name="TestNG.Parallel_test1"></class>
+
+
+</classes>
+</test>
+<test name="Multiplebrower2">
+<classes>
+
+<class name="TestNG.Parallel_test2"></class>
+
+</classes>
+</test>
+<test name="Multiplebrower3">
+<classes>
+<class name="TestNG.Parallel_test3"></class>
+
+</classes>
+</test>
+
+<test name="Multiplebrower4">
+
+<classes>
+<class name="TestNG.Parallel_test4"></class>
+
+</classes>
+
+</test>
+<test name="Multiplebrower5">
+<classes>
+<class name="TestNG.Parallel_test5"></class>
+
+
+</classes>
+</test>
+<test name="Multiplebrower6">
+<classes>
+<class name="TestNG.Parallel_test6"></class>
+
+
+</classes>
+</test>
+
+
+</suite>

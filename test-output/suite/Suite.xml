@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Disable">
+<test name="jjkhxjabh">
+<classes>
+<class name="TestNG.demo7">
+<methods>
+<exclude name="test2"></exclude>
+<exclude name="test5"></exclude>
+<exclude name="test4"></exclude>
+</methods>
+</class>
+</classes>
+</test>
+</suite>
+
+
